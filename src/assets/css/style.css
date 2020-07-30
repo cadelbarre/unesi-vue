@@ -4,6 +4,12 @@ body {
 	font-weight: 300 !important;
 }
 
+:root {
+  --color-primario: #004861;
+  --color-secundario: #00a3c8;
+  --bg-gris: #f8f9fb;
+}
+
 h1,
 h2,
 h3,
@@ -21,15 +27,19 @@ a.nav-link {
 }
 
 .blue-color {
-	color: #004861 !important;
+	color: var(--color-primario) !important;
 }
 
 .bg-blue-color {
-	background-color: #00a3c8;
+	background-color: var(--color-secundario) !important;
+}
+
+.text-blue-color{
+	color: var(--color-secundario) !important;
 }
 
 .bg-grey {
-	background-color: #f8f9fb;
+	background-color: var(--bg-gris) !important;
 }
 
 .title {
@@ -39,6 +49,10 @@ a.nav-link {
 .py-6 {
 	padding-top: 6.25em;
 	padding-bottom: 6.25em;
+}
+
+.subtitle{
+	padding: 0px 20%;
 }
 /* ---------------------------------- Info Top ---------------------------------- */
 .col-xs > i {
@@ -53,32 +67,42 @@ a.nav-link {
 
 /* ---------------------------------- hero seccion ---------------------------------- */
 #hero__bg {
-	background-image: url("../img/bg/fondo-azul.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../img/bg/fondo-salud-buenas-manos.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
-
-/*.prueba{
-    position: relative;
-    top: 0;
-	left: 0;
-    */
+.bg-hero{
+	background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url("../img/bg/fondo-salud-buenas-manos.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 10em;
+}
 
 .prueba {
-	/* background-image: url('../img/team/doctor1.jpg'); */
+	background-image: url('../img/team/Info-Doctor.jpg'); 
 	position: absolute;
-	top: 0;
-	left: 0;
+	/*top: 0;
+	left: 0;*/
 	width: 48%;
-	height: 100%;
+	height: 31.7em;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
 }
 
 .test {
 	position: absolute;
-	top: 0;
-	left: 0;
+	background-image: url('../img/team/doctor1.jpg'); 
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	/*background-position: center;*/
+	background-size: cover;
 }
 
 /* ------------------------------- TESTIMONIOS ------------------------------ */
@@ -99,3 +123,6 @@ a.nav-link {
 	opacity: 0.14;
 }
 
+.btn{
+	padding: 0.5em 1.5em !important;
+}

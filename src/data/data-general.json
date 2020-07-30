@@ -1,0 +1,18 @@
+{
+	"direccion": "Carrera 49C 80 - 125, Consultorio 506. Barranquilla - Colombia.",
+	"correo1": "unesi2007@hotmail.com",
+	"correo2": "",
+	"telefono": "(57 5) 391 26 75",
+	"celular": "(57) 315 261 86 95",
+	"facebook": "",
+	"instagram": "",
+	"horario_corto": "Lun - Vie: 9:00 AM - 5:00 PM",
+	"horario_largo":"",
+	"contador":{
+		"pacientes":"10500",
+		"anios":"20",
+		"procedimientos":"276",
+		"cursos":"96"
+	},
+	"otra cosa":""
+}
