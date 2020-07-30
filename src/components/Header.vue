@@ -30,17 +30,15 @@
 				<div class="row d-flex justify-content-between align-items-center">
 					<div class="col-md-10">
 						<nav class="nav d-flex align-items-center">
-							<a class="navbar-brand" href="#">
-								<img src="assets/img/unesilogo.png" width="30" height="30" alt="" loading="lazy" id="img__logo">
-							</a>
-							<!-- <a class="nav-link" href="#">Inicio</a> -->
+							<router-link class="navbar-brand" to="/home">
+								<img src="../assets/img/unesilogo.png" width="30" height="30" alt="" loading="lazy" id="img__logo">
+							</router-link>
 							<router-link class="nav-link" to="/home">Inicio</router-link>
-							<!-- <a class="nav-link" href="#">Sobre Nosotros</a> -->
 							<router-link class="nav-link" to="/nosotros">Nosotros</router-link>
 							<router-link class="nav-link" to="/perfil">Perfil</router-link>
 							<a class="nav-link" href="#">Expertos</a>
 							<a class="nav-link" href="#">Servicios</a>
-							<a class="nav-link" href="#">Contactenos</a>
+							<router-link class="nav-link" to="/Contacto">Contactenos</router-link>
 						</nav>
 					</div>
 					<div class="col-md-2 d-flex justify-content-end">

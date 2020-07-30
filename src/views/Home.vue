@@ -9,21 +9,21 @@
 			</ol>
 			<div class="carousel-inner">
 				<div class="carousel-item active" data-interval="3000">
-					<img src="assets/img/slides/mauvit-plus.png" class="d-block w-100" alt="...">
+					<img src="assets/img/slides/1.jpg" class="d-block w-100" alt="...">
 					<div class="carousel-caption d-none d-md-block">
 						<h5>First slide label</h5>
 						<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
 					</div>
 				</div>
 				<div class="carousel-item" data-interval="3000">
-					<img src="assets/img/slides/mauvit-tableta.png" class="d-block w-100" alt="...">
+					<img src="assets/img/slides/2.jpg" class="d-block w-100" alt="...">
 					<div class="carousel-caption d-none d-md-block">
 						<h5>Second slide label</h5>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 					</div>
 				</div>
 				<div class="carousel-item" data-interval="3000">
-					<img src="assets/img/slides/prueba-embarazo.png" class="d-block w-100" alt="...">
+					<img src="assets/img/slides/3.jpg" class="d-block w-100" alt="...">
 					<div class="carousel-caption d-none d-md-block">
 						<h5>Third slide label</h5>
 						<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
@@ -114,143 +114,128 @@
 				<div class="row">
 					<div class="col-sm-6">
 						<h1 class="blue-color mb-4">Nuestra Labor en Cifras</h1>
-						<p class="mb-5">Puede seguir leyendo sobre nuestras ventajas, pero usted puede leer los siguientes datos reales para asegurarte de todas las ventajas de nuestro trabajo clinico.</p>
+						<p class="text-justify">Puede seguir leyendo sobre nuestras ventajas, pero usted puede leer los siguientes datos reales para asegurarte de todas las ventajas de nuestro trabajo clinico.</p>
+						<p class="text-justify">Puede seguir leyendo sobre nuestras ventajas, pero usted puede leer los siguientes datos reales para asegurarte de todas las ventajas de nuestro trabajo clinico.</p>
+						<p class="text-justify mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia vero nam, labore eveniet assumenda cupiditate quo reprehenderit necessitatibus officiis a, natus quis nihil hic excepturi. Nemo animi porro, beatae ut.</p>
 						<div class="row d-flex justify-content-between align-items-center">
 							<div class="col-xs-3 text-center">
+								<span><i class="fas fa-heartbeat fa-4x mb-3 text-blue-color"></i></span>
 								<h1 class="blue-color"><b>10500</b></h1>
 								<p class="text-muted">Pacientes</p>
 							</div>
 							<div class="col-xs-3 text-center">
+								<span><i class="fas fa-user-md fa-4x mb-3 text-blue-color"></i></span>
 								<h1 class="blue-color"><b>20</b></h1>
 								<p class="text-muted">Años</p>
 							</div>
-
+							
 							<div class="col-xs-3 text-center">
+								<span><i class="fas fa-procedures fa-4x mb-3 text-blue-color"></i></span>
 								<h1 class="blue-color"><b>276</b></h1>
 								<p class="text-muted">Procedimientos</p>
 							</div>
 							<div class="col-xs-3 text-center">
+								<span><i class="fas fa-user-graduate fa-4x mb-3 text-blue-color"></i></span>
 								<h1 class="blue-color"><b>96</b></h1>
-								<p class="text-muted">Cursos de actualización</p>
+								<p class="text-muted">Cursos, Diplomas</p>
 							</div>
-
+							
 						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="test"></div>
 					</div>
 				</div>
 			</div>
-			<div class="test">
-			</div>
-
+			
 		</div>
 
 		<!-- ----------------------------- INFO DOCTOR ----------------------------- -->
 		<div class="row bg-blue-color">
-			<div class="col-md-6">
-				<div class="prueba">
-					<img src="assets/img/slides/prueba-embarazo.png" alt="">
-				</div>
-			</div>
-
-			<div class="col-md-6">
+			<div class="prueba"></div> 
+			<div class="container-fluid">
 				<div class="container py-6">
-					<div class="row d-flex align-content-center justify-content-end">
-						<div class="col-xs-6 text-white">
-							<h1 class="text-white mb-3">Dr. Jairo Martin Fernandez Henríquez.</h1>
-							<p>Jefe Sección de Cirugía Mínimamente Invasiva Ginecológica Clínica Carlos Ardila Lulle</p>
-							<p>"Una de mis mayores realizaciones es ayudar a las parejas a cumplir con el sueño de ser papas y para ello dedicamos todo el tiempo, nuestros conocimientos y nuestro corazón para que esto sea una realidad."</p>
-						</div> 
-						<!-- aqui va la foto, al lado izquierdo-->
-					</div>
-				</div>
-			</div>
-		</div>
-
-			<!-- <div class="container-fluid py-6 bg-blue-color"> -->
-			<!-- </div> -->
-			<div class="container-fluid py-6 bg-blue-color">
-				<div class="container">
 					<div class="row d-flex align-content-center justify-content-end">
 						<div class="col-xs-6 offset-6 text-white ">
 							<h1 class="text-white mb-3">Dr. Jairo Martin Fernandez Henríquez.</h1>
 							<p>Jefe Sección de Cirugía Mínimamente Invasiva Ginecológica Clínica CarlosArdila Lulle</p>
 							<p>"Una de mis mayores realizaciones es ayudar a las parejas a cumplir conel sueño de ser papas y para ello dedicamos todo el tiempo, nuestrosconocimientos y nuestro corazón para que esto sea una realidad."</p>
+							<button class="btn btn-outline-light" type="button"> Saber mas </button>
 						</div> 
-						<div class="prueba">
-							<img src="assets/img/team/doctor1.jpg" alt="">
-						</div>   
 					</div>
 				</div>
 			</div>
+		</div>
 
-			<!-- ----------------------------- TESTIMONIOS ------------------------------ -->
-			<div class="container-fluid bg-grey py-6">
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-12 title">
-							<h1 class="blue-color mb-4">Que Opinan Nuestros Pacientes</h1>
-							<p class="px-5">Te presentamos algunos de los agraecimientos de nuestros pacientes</p>
-						</div>            
-					</div>
-					<div class="row pt-5">
-						<div class="owl-carousel owl-theme" id="testimonios">
-							<div class="px-2 text-center">
-								<div class="card p-5 shadow-sm">
-									<div class="quote">
-										<img src="assets/img/quote.png" alt="">
-									</div>
-									<img src="assets/img/avatar1.png" alt="" class="avatar pb-3">
-									<p class="font-italic pb-3">Gracias, mil gracias Doctor Javier Noriega R. por todo lo que has hecho por nosotros, por la confianza que nos has transmitido en todo momento, gracias por tu dedicacion y gran ser humano que eres. </p>
-									<h5 class="blue-color">Cirugia Endovascular</h5>
+		<!-- ----------------------------- TESTIMONIOS ------------------------------ -->
+		<div class="container-fluid bg-grey py-6">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 title">
+						<h1 class="blue-color mb-4">Que Opinan Nuestros Pacientes</h1>
+						<p class="px-5">Te presentamos algunos de los agradecimientos de nuestros pacientes</p>
+					</div>            
+				</div>
+				<div class="row pt-5">
+					<div class="owl-carousel owl-theme" id="testimonios">
+						<div class="px-2 text-center">
+							<div class="card p-4 shadow-sm">
+								<div class="quote">
+									<img src="assets/img/quote.png" alt="">
 								</div>
+								<img src="assets/img/avatar1.png" alt="" class="avatar pb-3">
+								<p class="font-italic pb-3">Gracias, mil gracias Doctor Javier Noriega R. por todo lo que has hecho por nosotros, por la confianza que nos has transmitido en todo momento, gracias por tu dedicacion y gran ser humano que eres. </p>
+								<h5 class="blue-color">Cirugia Endovascular</h5>
 							</div>
-							<div class="px-2 text-center">
-								<div class="card p-5 shadow-sm">
-									<div class="quote">
-										<img src="assets/img/quote.png" alt="">
-									</div>
-									<img src="assets/img/avatar1.png" alt="" class="avatar pb-3">
-									<p class="font-italic pb-3">Un dia Papito Dios me dijo: "hija he escuchado tus oraciones y pondre un Angel en tu camino para hacer tu sueño de ser madre una realidad" Hoy con 29 semanas de embarazo agradezco al Padre Celestial por haber puesto en nuestra vida al Dr. Javier Noriega, un Ángel hecho ser humano que con su Sabiduría, sus benditas manos y la ayuda de Jesús lograron que hoy pueda decir que soy mama, soy la mujer más feliz del mundo y cada vez que siento en mi pancita las pataditas de Mi bebé no tengo con que agradecerle al Dr. Javier!</p>
-									<h5 class="blue-color">Panangeografia</h5>
+						</div>
+						<div class="px-2 text-center">
+							<div class="card p-4 shadow-sm">
+								<div class="quote">
+									<img src="assets/img/quote.png" alt="">
 								</div>
+								<img src="assets/img/avatar1.png" alt="" class="avatar pb-3">
+								<p class="font-italic pb-3">Un dia Papito Dios me dijo: "hija he escuchado tus oraciones y pondre un Angel en tu camino para hacer tu sueño de ser madre una realidad" Hoy con 29 semanas de embarazo agradezco al Padre Celestial por haber puesto en nuestra vida al Dr. Javier Noriega, un Ángel hecho ser humano que con su Sabiduría, sus benditas manos y la ayuda de Jesús lograron que hoy pueda decir que soy mama, soy la mujer más feliz del mundo y cada vez que siento en mi pancita las pataditas de Mi bebé no tengo con que agradecerle al Dr. Javier!</p>
+								<h5 class="blue-color">Panangeografia</h5>
 							</div>
-							<div class="px-2 text-center">
-								<div class="card p-5 shadow-sm">
-									<div class="quote">
-										<img src="assets/img/quote.png" alt="">
-									</div>
-									<img src="assets/img/avatar3.png" alt="" class="avatar pb-3">
-									<p class="font-italic pb-3">Dr Jairo Fernandez, Quiero agradecerle su hermosa labor y colaboración para hacer mi sueño de ser madre una realidad hoy ... </p>
-									<h5 class="blue-color">Carlos Delbarre de la Cruz</h5>
+						</div>
+						<div class="px-2 text-center">
+							<div class="card p-4 shadow-sm">
+								<div class="quote">
+									<img src="assets/img/quote.png" alt="">
 								</div>
+								<img src="assets/img/avatar3.png" alt="" class="avatar pb-3">
+								<p class="font-italic pb-3">Dr Jairo Fernandez, Quiero agradecerle su hermosa labor y colaboración para hacer mi sueño de ser madre una realidad hoy ... </p>
+								<h5 class="blue-color">Carlos Delbarre de la Cruz</h5>
 							</div>
-							<div class="px-2 text-center">
-								<div class="card p-5 shadow-sm">
-									<div class="quote">
-										<img src="assets/img/quote.png" alt="">
-									</div>
-									<img src="assets/img/avatar2.png" alt="" class="avatar pb-3">
-									<p class="font-italic pb-3">Gracias por hacerlo posible!!! Por mucho que te diga nunca sera suficiente para explicarte cuanto nos ha dado.. Gracias de corazon.. Muchas gracias tambien al maravilloso equipo de trabajo de la clinica nacer .. Mil y mil gracias y solo puedo devolver tanta felicidad con las oraciones que siempre elevare por ti mi doctor. Que dios te bendiga hoy y siempre..</p>
-									<h5 class="blue-color">Stroker</h5>
+						</div>
+						<div class="px-2 text-center">
+							<div class="card p-4 shadow-sm">
+								<div class="quote">
+									<img src="assets/img/quote.png" alt="">
 								</div>
+								<img src="assets/img/avatar2.png" alt="" class="avatar pb-3">
+								<p class="font-italic pb-3">Gracias por hacerlo posible!!! Por mucho que te diga nunca sera suficiente para explicarte cuanto nos ha dado.. Gracias de corazon.. Muchas gracias tambien al maravilloso equipo de trabajo de la clinica nacer .. Mil y mil gracias y solo puedo devolver tanta felicidad con las oraciones que siempre elevare por ti mi doctor. Que dios te bendiga hoy y siempre..</p>
+								<h5 class="blue-color">Stroker</h5>
 							</div>
 						</div>
 					</div>
+				</div>
 
+			</div>
+		</div>
+
+		<!-- ------------------------------ HERO ------------------------------ -->
+		<div class="container-fluid py-6" id="hero__bg">
+			<div class="container">
+				<div class="row text-center m-auto d-block">
+					<h1 class="display-3 text-white mb-4">TU SALUD EN LAS MEJORES MANOS</h1>
+					<button name="" id="" class="btn btn-outline-light m-auto" href="#" role="button">Solicitar Cita</button>
+				</div>
+				<div class="">
 				</div>
 			</div>
-
-			<!-- ------------------------------ HERO ------------------------------ -->
-			<div class="container-fluid py-6" id="hero__bg">
-				<div class="container">
-					<div class="row text-center m-auto">
-						<h1 class="display-3 text-white mb-4">Tu salud en las mejores manos ad</h1>
-						<button name="" id="" class="btn btn-outline-light px-2 m-auto" href="#" role="button">Solicitar Cita</button>
-					</div>
-					<div class="">
-					</div>
-				</div>
-			</div>
-			<!-- ------------------------------ PUBLICACIONES ------------------------------ -->
+		</div>
+		<!-- ------------------------------ PUBLICACIONES ------------------------------ -->
 
 	</section>
 </template>

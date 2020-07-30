@@ -5,6 +5,7 @@ import VueRouter from 'vue-router'
 // import home from '../views/home.vue';
 import nosotros from '../views/nosotros.vue'
 import perfil from '../views/perfil.vue'
+import Contacto from '../views/Contacto.vue'
 
 Vue.use(VueRouter)
 
@@ -27,6 +28,11 @@ Vue.use(VueRouter)
     path: '/perfil',
     name: 'perfil',
     component: perfil
+  },
+   {
+    path: '/Contacto',
+    name: 'Contacto',
+    component: Contacto
   }
 
 ]
