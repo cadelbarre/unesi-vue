@@ -1,0 +1,101 @@
+body {
+	font-family: "Roboto", sans-serif !important;
+	color: #333 !important;
+	font-weight: 300 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #222 !important;
+	font-family: "Lato", sans-serif !important;
+	font-weight: 700 !important;
+	letter-spacing: -0.25px !important;
+}
+
+a.nav-link {
+	color: #333 !important;
+}
+
+.blue-color {
+	color: #004861 !important;
+}
+
+.bg-blue-color {
+	background-color: #00a3c8;
+}
+
+.bg-grey {
+	background-color: #f8f9fb;
+}
+
+.title {
+	text-align: center;
+}
+
+.py-6 {
+	padding-top: 6.25em;
+	padding-bottom: 6.25em;
+}
+/* ---------------------------------- Info Top ---------------------------------- */
+.col-xs > i {
+	margin-right: 0.5em;
+}
+
+/* ---------------------------------- Imagen Logo ---------------------------------- */
+#img__logo {
+	width: 10em;
+	height: 100%;
+}
+
+/* ---------------------------------- hero seccion ---------------------------------- */
+#hero__bg {
+	background-image: url("../img/bg/fondo-azul.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+/*.prueba{
+    position: relative;
+    top: 0;
+	left: 0;
+    */
+
+.prueba {
+	/* background-image: url('../img/team/doctor1.jpg'); */
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 48%;
+	height: 100%;
+}
+
+.test {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* ------------------------------- TESTIMONIOS ------------------------------ */
+.avatar {
+	margin: auto;
+	width: 4.375em !important;
+	height: 5em;
+}
+
+.quote {
+	position: absolute;
+	top: 54%;
+	left: 50%;
+	width: 100px;
+	height: 103px;
+	margin-left: -62px;
+	margin-top: -60px;
+	opacity: 0.14;
+}
+
