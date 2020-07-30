@@ -34,7 +34,9 @@
 								<img src="assets/img/unesilogo.png" width="30" height="30" alt="" loading="lazy" id="img__logo">
 							</a>
 							<a class="nav-link" href="#">Inicio</a>
+							<!-- <router-link to="/home">Inicio</router-link> -->
 							<a class="nav-link" href="#">Sobre Nosotros</a>
+							<!-- <router-link to="/nosotros">Nosotros</router-link> -->
 							<a class="nav-link" href="#">Expertos</a>
 							<a class="nav-link" href="#">Servicios</a>
 							<a class="nav-link" href="#">Contactenos</a>
