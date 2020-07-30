@@ -163,9 +163,10 @@
 					</div>
 				</div>
 			</div>
+		</div>
 
 			<!-- <div class="container-fluid py-6 bg-blue-color"> -->
-			</div>
+			<!-- </div> -->
 			<div class="container-fluid py-6 bg-blue-color">
 				<div class="container">
 					<div class="row d-flex align-content-center justify-content-end">
@@ -251,7 +252,7 @@
 			</div>
 			<!-- ------------------------------ PUBLICACIONES ------------------------------ -->
 
-		</section>
+	</section>
 </template>
 
 <script>
