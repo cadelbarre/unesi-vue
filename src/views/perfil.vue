@@ -3,7 +3,7 @@
         <div class="container-fluid py-5 bg-hero">
             <div class="jumbotron-fluid">
                 <div class="container">
-                    <h4 class="display-4">Nuestros Doctores</h4>
+                    <h4 class="display-4 blue-color">Nuestros Doctores</h4>
                 </div>
             </div>
         </div>

@@ -44,11 +44,11 @@
 		<!-- ----------------------------- BIENVENIDA ------------------------------ -->
 		<div class="container-fluid py-6">
 			<div class="container">
-				<div class="row">
+				<div class="row wow animated fadeInUp">
 					<div class="col-md px-5 d-flex justify-content-end">
 						<img class="img-fluid" src="../assets/img/team/doctor1.jpg" alt="">
 					</div>
-					<div class="col-md px-5 m-auto">
+					<div class="col-md px-5 m-auto ">
 						<h1 class="blue-color mb-4">
 							Bienvenidos a UNESI Ltda
 						</h1>
@@ -118,26 +118,26 @@
 						<p class="text-justify">Puede seguir leyendo sobre nuestras ventajas, pero usted puede leer los siguientes datos reales para asegurarte de todas las ventajas de nuestro trabajo clinico.</p>
 						<p class="text-justify">Puede seguir leyendo sobre nuestras ventajas, pero usted puede leer los siguientes datos reales para asegurarte de todas las ventajas de nuestro trabajo clinico.</p>
 						<p class="text-justify mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia vero nam, labore eveniet assumenda cupiditate quo reprehenderit necessitatibus officiis a, natus quis nihil hic excepturi. Nemo animi porro, beatae ut.</p>
-						<div class="row d-flex justify-content-between align-items-center">
+						<div class="row d-flex justify-content-between align-items-center wow animated fadeInUp">
 							<div class="col-xs-3 text-center">
 								<span><i class="fas fa-heartbeat fa-4x mb-3 text-blue-color"></i></span>
-								<h1 class="blue-color"><b>10500</b></h1>
+								<h1 class="blue-color "><b>10500</b></h1>
 								<p class="text-muted">Pacientes</p>
 							</div>
 							<div class="col-xs-3 text-center">
 								<span><i class="fas fa-user-md fa-4x mb-3 text-blue-color"></i></span>
-								<h1 class="blue-color"><b>20</b></h1>
+								<h1 class="blue-color count"><b>20</b></h1>
 								<p class="text-muted">Años</p>
 							</div>
 							
 							<div class="col-xs-3 text-center">
 								<span><i class="fas fa-procedures fa-4x mb-3 text-blue-color"></i></span>
-								<h1 class="blue-color"><b>276</b></h1>
+								<h1 class="blue-color count"><b>276</b></h1>
 								<p class="text-muted">Procedimientos</p>
 							</div>
 							<div class="col-xs-3 text-center">
 								<span><i class="fas fa-user-graduate fa-4x mb-3 text-blue-color"></i></span>
-								<h1 class="blue-color"><b>96</b></h1>
+								<h1 class="blue-color count"><b>96</b></h1>
 								<p class="text-muted">Cursos, Diplomas</p>
 							</div>
 							
@@ -228,7 +228,8 @@
 		<div class="container-fluid py-6" id="hero__bg">
 			<div class="container">
 				<div class="row text-center m-auto d-block">
-					<h1 class="display-3 text-white mb-4">TU SALUD EN LAS MEJORES MANOS</h1>
+					<h1 class="display-3 text-white mb-4">TU SALUD EN LAS MEJORES MANOS.</h1>
+					<p class="subtitle text-white">Agenda una cita con nosotros.</p>
 					<button name="" id="" class="btn btn-outline-light m-auto" href="#" role="button">Solicitar Cita</button>
 				</div>
 				<div class="">

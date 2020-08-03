@@ -16,6 +16,11 @@ Vue.use(VueRouter)
     component: Home
   },
   {
+    path: '/',
+    name: 'Home',
+    component: Home
+  },
+  {
     path: '/nosotros',
     name: 'nosotros',
     component: nosotros

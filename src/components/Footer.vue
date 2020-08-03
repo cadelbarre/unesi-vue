@@ -13,9 +13,9 @@
                     <ul class="list-style">
                         <li>Quienes Somos</li>
                         <li>Derechos y Deberes de los Pacientes</li>
+                        <li>Valores Corporativos</li>
                         <li>Nuestros Doctores</li>
                         <li>Agendar Citar</li>
-                        <li></li>
                     </ul>
                 </div>
                 <div class="col-md-2">

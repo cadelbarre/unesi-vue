@@ -25,7 +25,8 @@
 			</div>
 		</div>
 		<!-- ---------------------------- NAVBAR ---------------------------- -->
-		<div class="container-fluid py-3 border-bottom">
+		<div class="container-fluid py-3 border-bottom bg-white">
+			<div class="sticky-top">
 			<div class="container">
 				<div class="row d-flex justify-content-between align-items-center">
 					<div class="col-md-10">
@@ -45,6 +46,7 @@
 						<a name="" id="" class="btn btn-primary" href="#" role="button">Agendar Cita</a>
 					</div>
 				</div>
+			</div>
 			</div>
 		</div>
 	</header>
