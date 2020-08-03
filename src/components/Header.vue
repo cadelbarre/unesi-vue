@@ -30,10 +30,10 @@
 				<div class="row d-flex justify-content-between align-items-center">
 					<div class="col-md-10">
 						<nav class="nav d-flex align-items-center">
-							<router-link class="navbar-brand" to="/home">
+							<router-link class="navbar-brand" to="/Home">
 								<img src="../assets/img/unesilogo.png" width="30" height="30" alt="" loading="lazy" id="img__logo">
 							</router-link>
-							<router-link class="nav-link" to="/home">Inicio</router-link>
+							<router-link class="nav-link" to="/Home">Inicio</router-link>
 							<router-link class="nav-link" to="/nosotros">Nosotros</router-link>
 							<router-link class="nav-link" to="/perfil">Perfil</router-link>
 							<a class="nav-link" href="#">Expertos</a>

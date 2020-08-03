@@ -4,8 +4,8 @@
     <router-view/>
     <Footer/>
   </div>
-      <!-- <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link> -->
+      <!-- <router-link to="/home">Home</router-link> | -->
+      <!-- <router-link to="/about">About</router-link> -->
 </template>
 
 <script>
@@ -27,6 +27,6 @@
 @import url('./assets/css/bootstrap-grid.min.css');
 @import url('./assets/css/bootstrap-reboot.min.css');
 @import url('./assets/css/bootstrap.min.css');
-/*@import url('./assets/css/owl.carousel.min.css');*/
+@import url('./assets/css/owl.carousel.min.css');
 @import url('./assets/css/owl.theme.default.min.css');
 </style>

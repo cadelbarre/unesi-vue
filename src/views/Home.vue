@@ -1,5 +1,6 @@
 <template>
 	<section>
+		
 		<!-- ------------------------------ CAROUSEL ------------------------------- -->
 		<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
 			<ol class="carousel-indicators">
@@ -9,7 +10,7 @@
 			</ol>
 			<div class="carousel-inner">
 				<div class="carousel-item active" data-interval="3000">
-					<img src="assets/img/slides/1.jpg" class="d-block w-100" alt="...">
+					<img src="../assets/img/slides/1.jpg" class="d-block w-100" alt="...">
 					<div class="carousel-caption d-none d-md-block">
 						<h5>First slide label</h5>
 						<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
@@ -17,14 +18,14 @@
 				</div>
 				<div class="carousel-item" data-interval="3000">
 					<img src="assets/img/slides/2.jpg" class="d-block w-100" alt="...">
-					<div class="carousel-caption d-none d-md-block">
+					<div class="../carousel-caption d-none d-md-block">
 						<h5>Second slide label</h5>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 					</div>
 				</div>
 				<div class="carousel-item" data-interval="3000">
 					<img src="assets/img/slides/3.jpg" class="d-block w-100" alt="...">
-					<div class="carousel-caption d-none d-md-block">
+					<div class="../carousel-caption d-none d-md-block">
 						<h5>Third slide label</h5>
 						<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
 					</div>
@@ -45,7 +46,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md px-5 d-flex justify-content-end">
-						<img class="img-fluid" src="assets/img/team/doctor1.jpg" alt="">
+						<img class="img-fluid" src="../assets/img/team/doctor1.jpg" alt="">
 					</div>
 					<div class="col-md px-5 m-auto">
 						<h1 class="blue-color mb-4">
@@ -76,7 +77,7 @@
 				<div class="row d-flex justify-content-between pt-5">
 					<div class="col-md-4">
 						<div class="card" style="width: 18rem;">
-							<img src="..." class="card-img-top" alt="...">
+							<img src="" class="card-img-top" alt="">
 							<div class="card-body">
 								<h5 class="card-title text-center">CONSULTA EXTERNA</h5>
 								<p class="card-text pb-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -86,7 +87,7 @@
 					</div>
 					<div class="col-md-4">
 						<div class="card" style="width: 18rem;">
-							<img src="..." class="card-img-top" alt="...">
+							<img src="" class="card-img-top" alt="...">
 							<div class="card-body">
 								<h5 class="card-title text-center">PROCEDIMIENTOS ENDOVASCULARES</h5>
 								<p class="card-text pb-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -96,7 +97,7 @@
 					</div>
 					<div class="col-md-4">
 						<div class="card" style="width: 18rem;">
-							<img src="..." class="card-img-top" alt="...">
+							<img src="" class="card-img-top" alt="...">
 							<div class="card-body">
 								<h5 class="card-title text-center">STROKE</h5>
 								<p class="card-text pb-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -147,7 +148,6 @@
 					</div>
 				</div>
 			</div>
-			
 		</div>
 
 		<!-- ----------------------------- INFO DOCTOR ----------------------------- -->
@@ -236,13 +236,26 @@
 			</div>
 		</div>
 		<!-- ------------------------------ PUBLICACIONES ------------------------------ -->
-
+		<div class="container-fluid py-6">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 title">
+						<h1 class="blue-color mb-4">Publicaciones</h1>
+						<p class="px-5">En este seccion encontraremos las publicaciones de notas medicas y noticias relevantes al sector salud.</p>
+					</div>            
+				</div>
+				<div class="row pt-5">
+					se colocan las noticias
+				</div>
+			</div>
+		</div>
+	
 	</section>
 </template>
 
 <script>
 export default {
-  name: 'home'
+  name: 'Home'
 }
 </script>
 

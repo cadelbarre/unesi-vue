@@ -5,7 +5,7 @@ body {
 }
 
 :root {
-  --color-primario: #004861;
+  --color-primario: #02589d;
   --color-secundario: #00a3c8;
   --bg-gris: #f8f9fb;
 }
@@ -125,4 +125,12 @@ a.nav-link {
 
 .btn{
 	padding: 0.5em 1.5em !important;
+}
+
+/* --------------------------- FOOTER --------------------------- */ 
+footer{
+	background-image: url(../img/bg/fondo-footer.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
