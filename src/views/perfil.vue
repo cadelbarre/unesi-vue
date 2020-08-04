@@ -12,13 +12,13 @@
         <div class="container-fluid py-6">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-6 m-auto text-center d-block">
+                    <div class="col-sm-6 m-auto text-center d-block" v-scrollanimation>
                         <img src="../assets/img/team/doctor1.jpg" alt="" class="img-fluid px-3">
                         <p class="mt-4">Etiam sapien sem magna at vitae pulvinar congue augue egestas pretium neque id viverra suscipit egestas magna porta ratione, mollis risus lectus porta rutrum arcu aenean</p>
                         <h1>1-(800)-569-7890</h1>
                         <h1>hello@yourdomain.com</h1>
                     </div>
-                    <div class="col-sm-6 d-block">
+                    <div class="col-sm-6 d-block delay" v-scrollanimation>
                         <h1 class="display-4 text-blue-color">Dr. Jario Fernanadez</h1>
                         <h5 class="mb-4 blue-color">Neurologist / Epilepsy Specialist / Cardiologist</h5>
                         <p class="text-justify">Etiam sapien sem magna at vitae pulvinar congue augue egestas pretium neque id viverra suscipit egestas magna porta ratione, mollis risus lectus porta rutrum arcu aenean primis in augue luctus neque purus ipsum neque dolor primis suscipit in magna dignissim, porttitor hendrerit diam</p>

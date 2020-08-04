@@ -24,5 +24,6 @@
 <style>
 /*--------------  Importamos todas los archivos CSS  --------------*/
 @import url('./assets/css/style.css');
-@import url('./assets/css/animate.fadeInUp.css');
+@import url('./assets/css/scrollanimation.css');
+
 </style>

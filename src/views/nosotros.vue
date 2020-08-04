@@ -18,7 +18,7 @@
 						<h1 class="blue-color mb-4">
 							Quienes Somos
 						</h1>
-						<div class="text-justify">
+						<div class="text-justify" >
 							<p>La Clínica El Pinar es una institución privada especializada en ofrecer procedimientos quirúrgicos ambulatorios, que inició operaciones el primero de noviembre de 2006.</p>
 
 							<p>El servicio estaba principalmente dirigido a pacientes particulares de cualquier especialidad y cirugía plástica, sin embargo en este mundo cambiante y con el crecimiento desmedido de los procedimientos de cirugía plástica junto con la ampliación del plan obligatorio de salud y los grandes planes de la medicina pre-pagada, se hizo necesario la ampliación y crecimiento de servicios que lograran cubrir este nicho de mercado.</p>
@@ -29,8 +29,8 @@
 				</div>
 			
 				<!-- MISION Y VISION -->
-				<div class="row mt-5">
-					<div class="col-md-6 px-4">
+				<div class="row mt-5" >
+					<div class="col-md-6 px-4" v-scrollanimation>
 						<h1 class="blue-color mb-4">
 							Misión
 						</h1>
@@ -38,7 +38,7 @@
 							<p>Somos una organización conformada por un grupo de profesionales de la salud certificados a nivel nacional e internacional en el área de neurocirugía y neurocirugía intervencionista, que presta servicios especializados en el área de hemodinamia a las diferentes instituciones prestadoras de salud a nivel costa y a los pacientes que llegan a nuestro consultorio, bajo los mas altos estándares de calidad, tecnología y sentido humano, garantizando a nuestros pacientes una atención clara, accesible y de confianza.</p>
 						</div>
 					</div>
-					<div class="col-md-6 px-4">
+					<div class="col-md-6 px-4 delay" v-scrollanimation>
 						<h1 class="blue-color mb-4">
 							Visión
 						</h1>
@@ -84,10 +84,10 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md px-4">
-						<h1 class="blue-color mb-4">
+						<h1 class="blue-color mb-4" v-scrollanimation>
 							Politicas de Calidad
 						</h1>
-						<div class="text-justify">
+						<div class="text-justify" v-scrollanimation>
 							<p>Nuestro grupo de profesionales brinda atención médica especializada por medio de procedimientos de neurocirugia y neurocirugia intervencionista, encaminados hacia el bienestar y satisfacción de los pacientes que acuden a las instituciones prestadoras de salud con las cuales tenemos convenio de servicio y a los pacientes que llegan a nuestro consultorio, respaldados en la trayectoria y experiencia de nuestros médicos, quienes cuentan con excelente reconocimiento y confianza en la zona costa, gracias a la certificación nacional e internacional de los estudios realizados.</p>
 						</div>
 					</div>
@@ -108,4 +108,5 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
 </style>

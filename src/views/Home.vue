@@ -2,7 +2,7 @@
 	<section>
 		
 		<!-- ------------------------------ CAROUSEL ------------------------------- -->
-		<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+	<!-- 	<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
 			<ol class="carousel-indicators">
 				<li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
 				<li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
@@ -27,12 +27,33 @@
 				<span class="carousel-control-next-icon" aria-hidden="true"></span>
 				<span class="sr-only">Next</span>
 			</a>
-		</div>
+		</div> -->
+		
+	<!-- 	<carousel :items="1" :autoplay="true" :autoplaySpeed="1000">
+			<template slot="prev"><span class="prev"></span></template>
+			<img src="../assets/img/slides/1.jpg" class="d-block w-100" alt="...">
+			<img src="../assets/img/slides/2.jpg" class="d-block w-100" alt="...">
+			<img src="../assets/img/slides/3.jpg" class="d-block w-100" alt="...">
+			<template slot="next"><span class="next"></span></template>
+		</carousel> -->
+
+		<agile>
+			<div class="slide">
+				<img src="../assets/img/slides/1.jpg" class="d-block w-100" alt="...">
+			</div>
+			<div class="slide">
+				<img src="../assets/img/slides/2.jpg" class="d-block w-100" alt="...">
+			</div>
+			<div class="slide">
+				<img src="../assets/img/slides/3.jpg" class="d-block w-100" alt="...">
+			</div>
+			
+		</agile>
 
 		<!-- ----------------------------- BIENVENIDA ------------------------------ -->
 		<div class="container-fluid py-6">
 			<div class="container">
-				<div class="row wow animated fadeInUp">
+				<div class="row">
 					<div class="col-md px-5 d-flex justify-content-end">
 						<img class="img-fluid" src="../assets/img/team/doctor1.jpg" alt="">
 					</div>
@@ -106,7 +127,7 @@
 						<p class="text-justify">Puede seguir leyendo sobre nuestras ventajas, pero usted puede leer los siguientes datos reales para asegurarte de todas las ventajas de nuestro trabajo clinico.</p>
 						<p class="text-justify">Puede seguir leyendo sobre nuestras ventajas, pero usted puede leer los siguientes datos reales para asegurarte de todas las ventajas de nuestro trabajo clinico.</p>
 						<p class="text-justify mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia vero nam, labore eveniet assumenda cupiditate quo reprehenderit necessitatibus officiis a, natus quis nihil hic excepturi. Nemo animi porro, beatae ut.</p>
-						<div class="row d-flex justify-content-between align-items-center wow animated fadeInUp">
+						<div class="row d-flex justify-content-between align-items-center">
 							<div class="col-xs-3 text-center">
 								<span><i class="fas fa-heartbeat fa-4x mb-3 text-blue-color"></i></span>
 								<h1 class="blue-color "><b>10500</b></h1>
@@ -144,7 +165,7 @@
 			<div class="container-fluid">
 				<div class="container py-6">
 					<div class="row d-flex align-content-center justify-content-end">
-						<div class="col-xs-6 offset-6 text-white ">
+						<div class="col-xs-6 offset-6 text-white" v-scrollanimation>
 							<h1 class="text-white mb-3">Dr. Jairo Martin Fernandez Henríquez.</h1>
 							<p>Jefe Sección de Cirugía Mínimamente Invasiva Ginecológica Clínica CarlosArdila Lulle</p>
 							<p>"Una de mis mayores realizaciones es ayudar a las parejas a cumplir conel sueño de ser papas y para ello dedicamos todo el tiempo, nuestrosconocimientos y nuestro corazón para que esto sea una realidad."</p>
@@ -215,7 +236,7 @@
 		<!-- ------------------------------ HERO ------------------------------ -->
 		<div class="container-fluid py-6" id="hero__bg">
 			<div class="container">
-				<div class="row text-center m-auto d-block">
+				<div class="row text-center m-auto d-block" v-scrollanimation>
 					<h1 class="display-3 text-white mb-4">TU SALUD EN LAS MEJORES MANOS.</h1>
 					<p class="subtitle text-white">Agenda una cita con nosotros.</p>
 					<button name="" id="" class="btn btn-outline-light m-auto" href="#" role="button">Solicitar Cita</button>
@@ -243,8 +264,11 @@
 </template>
 
 <script>
+// import carousel from 'vue-owl-carousel2'
+import VueAgile from 'vue-agile';
 export default {
-  name: 'Home'
+  name: 'Home',
+  components: { agile : VueAgile  }
 }
 </script>
 
