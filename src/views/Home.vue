@@ -11,24 +11,12 @@
 			<div class="carousel-inner">
 				<div class="carousel-item active" data-interval="3000">
 					<img src="../assets/img/slides/1.jpg" class="d-block w-100" alt="...">
-					<div class="carousel-caption d-none d-md-block">
-						<h5>First slide label</h5>
-						<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-					</div>
 				</div>
 				<div class="carousel-item" data-interval="3000">
-					<img src="assets/img/slides/2.jpg" class="d-block w-100" alt="...">
-					<div class="../carousel-caption d-none d-md-block">
-						<h5>Second slide label</h5>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-					</div>
+					<img src="../assets/img/slides/2.jpg" class="d-block w-100" alt="...">
 				</div>
 				<div class="carousel-item" data-interval="3000">
-					<img src="assets/img/slides/3.jpg" class="d-block w-100" alt="...">
-					<div class="../carousel-caption d-none d-md-block">
-						<h5>Third slide label</h5>
-						<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-					</div>
+					<img src="../assets/img/slides/3.jpg" class="d-block w-100" alt="...">
 				</div>
 			</div>
 			<a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
@@ -181,9 +169,9 @@
 						<div class="px-2 text-center">
 							<div class="card p-4 shadow-sm">
 								<div class="quote">
-									<img src="assets/img/quote.png" alt="">
+									<img src="../assets/img/quote.png" alt="">
 								</div>
-								<img src="assets/img/avatar1.png" alt="" class="avatar pb-3">
+								<img src="../assets/img/avatar1.png" alt="" class="avatar pb-3">
 								<p class="font-italic pb-3">Gracias, mil gracias Doctor Javier Noriega R. por todo lo que has hecho por nosotros, por la confianza que nos has transmitido en todo momento, gracias por tu dedicacion y gran ser humano que eres. </p>
 								<h5 class="blue-color">Cirugia Endovascular</h5>
 							</div>

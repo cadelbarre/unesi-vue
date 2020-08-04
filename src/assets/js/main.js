@@ -1,8 +1,7 @@
-document.addEventListener('DOMContentLoaded', e =>{
-new WOW().init();
+document.addEventListener('DOMContentLoaded', () =>{
 
-		console.log("hola a todos");
-	var owl = $("#testimonios");
+	var owl = document.getElementById('testimonios');
+	console.log(owl);
 	owl.owlCarousel({
 		items: 2,
 		loop: true,
@@ -12,4 +11,3 @@ new WOW().init();
 		autoplayHoverPause: false,
 	});
 });
-
