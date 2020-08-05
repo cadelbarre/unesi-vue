@@ -1,53 +1,16 @@
 <template>
-	<section>
+	<section v-enteractive>
 		
 		<!-- ------------------------------ CAROUSEL ------------------------------- -->
-	<!-- 	<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-			<ol class="carousel-indicators">
-				<li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-				<li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-				<li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-			</ol>
-			<div class="carousel-inner">
-				<div class="carousel-item active" data-interval="3000">
-					<img src="../assets/img/slides/1.jpg" class="d-block w-100" alt="...">
-				</div>
-				<div class="carousel-item" data-interval="3000">
-					<img src="../assets/img/slides/2.jpg" class="d-block w-100" alt="...">
-				</div>
-				<div class="carousel-item" data-interval="3000">
-					<img src="../assets/img/slides/3.jpg" class="d-block w-100" alt="...">
-				</div>
-			</div>
-			<a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-				<span class="sr-only">Previous</span>
-			</a>
-			<a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-				<span class="carousel-control-next-icon" aria-hidden="true"></span>
-				<span class="sr-only">Next</span>
-			</a>
-		</div> -->
-		
-	<!-- 	<carousel :items="1" :autoplay="true" :autoplaySpeed="1000">
-			<template slot="prev"><span class="prev"></span></template>
-			<img src="../assets/img/slides/1.jpg" class="d-block w-100" alt="...">
-			<img src="../assets/img/slides/2.jpg" class="d-block w-100" alt="...">
-			<img src="../assets/img/slides/3.jpg" class="d-block w-100" alt="...">
-			<template slot="next"><span class="next"></span></template>
-		</carousel> -->
-
-		<agile>
+		<agile :autoplay-speed="5000" :speed="1500" autoplay="autoplay" :navButtons="true">
 			<div class="slide">
 				<img src="../assets/img/slides/1.jpg" class="d-block w-100" alt="...">
 			</div>
 			<div class="slide">
 				<img src="../assets/img/slides/2.jpg" class="d-block w-100" alt="...">
 			</div>
-			<div class="slide">
-				<img src="../assets/img/slides/3.jpg" class="d-block w-100" alt="...">
-			</div>
-			
+			<template slot="prevButton"><i class="fas fa-chevron-left"></i></template>
+			<template slot="nextButton"><i class="fas fa-chevron-right"></i></template>
 		</agile>
 
 		<!-- ----------------------------- BIENVENIDA ------------------------------ -->
@@ -185,56 +148,41 @@
 						<p class="px-5">Te presentamos algunos de los agradecimientos de nuestros pacientes</p>
 					</div>            
 				</div>
-				<div class="row pt-5">
-					<div class="owl-carousel owl-theme" id="testimonios">
-						<div class="px-2 text-center">
-							<div class="card p-4 shadow-sm">
-								<div class="quote">
-									<img src="../assets/img/quote.png" alt="">
-								</div>
-								<img src="../assets/img/avatar1.png" alt="" class="avatar pb-3">
-								<p class="font-italic pb-3">Gracias, mil gracias Doctor Javier Noriega R. por todo lo que has hecho por nosotros, por la confianza que nos has transmitido en todo momento, gracias por tu dedicacion y gran ser humano que eres. </p>
-								<h5 class="blue-color">Cirugia Endovascular</h5>
-							</div>
-						</div>
-						<div class="px-2 text-center">
-							<div class="card p-4 shadow-sm">
-								<div class="quote">
-									<img src="assets/img/quote.png" alt="">
-								</div>
-								<img src="assets/img/avatar1.png" alt="" class="avatar pb-3">
-								<p class="font-italic pb-3">Un dia Papito Dios me dijo: "hija he escuchado tus oraciones y pondre un Angel en tu camino para hacer tu sueño de ser madre una realidad" Hoy con 29 semanas de embarazo agradezco al Padre Celestial por haber puesto en nuestra vida al Dr. Javier Noriega, un Ángel hecho ser humano que con su Sabiduría, sus benditas manos y la ayuda de Jesús lograron que hoy pueda decir que soy mama, soy la mujer más feliz del mundo y cada vez que siento en mi pancita las pataditas de Mi bebé no tengo con que agradecerle al Dr. Javier!</p>
-								<h5 class="blue-color">Panangeografia</h5>
-							</div>
-						</div>
-						<div class="px-2 text-center">
-							<div class="card p-4 shadow-sm">
-								<div class="quote">
-									<img src="assets/img/quote.png" alt="">
-								</div>
-								<img src="assets/img/avatar3.png" alt="" class="avatar pb-3">
-								<p class="font-italic pb-3">Dr Jairo Fernandez, Quiero agradecerle su hermosa labor y colaboración para hacer mi sueño de ser madre una realidad hoy ... </p>
-								<h5 class="blue-color">Carlos Delbarre de la Cruz</h5>
-							</div>
-						</div>
-						<div class="px-2 text-center">
-							<div class="card p-4 shadow-sm">
-								<div class="quote">
-									<img src="assets/img/quote.png" alt="">
-								</div>
-								<img src="assets/img/avatar2.png" alt="" class="avatar pb-3">
-								<p class="font-italic pb-3">Gracias por hacerlo posible!!! Por mucho que te diga nunca sera suficiente para explicarte cuanto nos ha dado.. Gracias de corazon.. Muchas gracias tambien al maravilloso equipo de trabajo de la clinica nacer .. Mil y mil gracias y solo puedo devolver tanta felicidad con las oraciones que siempre elevare por ti mi doctor. Que dios te bendiga hoy y siempre..</p>
-								<h5 class="blue-color">Stroker</h5>
-							</div>
-						</div>
-					</div>
-				</div>
 
+				<div class="pt-5">
+					<agile :autoplay-speed="6000" :speed="1500" autoplay="autoplay" :navButtons="false">
+						<div class="slide" id="testimonios">
+							<div class="px-5 text-center">
+								<div class="card p-4 shadow-sm">
+									<div class="quote">
+										<img src="../assets/img/quote.png" alt="" class="img-fluid">
+									</div>
+									<img src="../assets/img/avatar1.png" alt="" class="avatar pb-3">
+									<p class="font-italic pb-3">Gracias, mil gracias Doctor Javier Noriega R. por todo lo que has hecho por nosotros, por la confianza que nos has transmitido en todo momento, gracias por tu dedicacion y gran ser humano que eres. </p>
+									<h5 class="blue-color">Cirugia Endovascular</h5>
+								</div>
+							</div>
+						</div>
+						<div class="slide" id="testimonios">
+							<div class="px-5 text-center">
+								<div class="card p-4 shadow-sm">
+									<div class="quote">
+										<img src="../assets/img/quote.png" alt="" class="img-fluid">
+									</div>
+									<img src="../assets/img/avatar1.png" alt="" class="avatar pb-3">
+									<p class="font-italic pb-3">Un dia Papito Dios me dijo: "hija he escuchado tus oraciones y pondre un Angel en tu camino para hacer tu sueño de ser madre una realidad" Hoy con 29 semanas de embarazo agradezco al Padre Celestial por haber puesto en nuestra vida al Dr. Javier Noriega, un Ángel hecho ser humano que con su Sabiduría, sus benditas manos y la ayuda de Jesús lograron que hoy pueda decir que soy mama, soy la mujer más feliz del mundo y cada vez que siento en mi pancita las pataditas de Mi bebé no tengo con que agradecerle al Dr. Javier!</p>
+									<h5 class="blue-color">Panangeografia</h5>
+								</div>
+							</div>
+						</div>
+					</agile>
+					
+				</div>				
 			</div>
 		</div>
 
 		<!-- ------------------------------ HERO ------------------------------ -->
-		<div class="container-fluid py-6" id="hero__bg">
+		<div class="container-fluid py-5" id="hero__bg">
 			<div class="container">
 				<div class="row text-center m-auto d-block" v-scrollanimation>
 					<h1 class="display-3 text-white mb-4">TU SALUD EN LAS MEJORES MANOS.</h1>
@@ -265,13 +213,13 @@
 
 <script>
 // import carousel from 'vue-owl-carousel2'
-import VueAgile from 'vue-agile';
 export default {
   name: 'Home',
-  components: { agile : VueAgile  }
+  components: {  }
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+	@import url('../assets/css/vue-agile.css');
 </style>

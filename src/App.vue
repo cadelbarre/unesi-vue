@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <Header/>
-    <router-view/>
+    <transition name="router-animated" leave-active-class="animated fadeOut">
+      <router-view/>
+    </transition>
     <Footer/>
   </div>
 </template>
@@ -24,6 +26,7 @@
 <style>
 /*--------------  Importamos todas los archivos CSS  --------------*/
 @import url('./assets/css/style.css');
+@import url('./assets/css/animate.css');
 @import url('./assets/css/scrollanimation.css');
 
 </style>

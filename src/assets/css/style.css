@@ -33,7 +33,7 @@ a.nav-link {
 }
 
 .bg-blue-color {
-	background-color: var(--color-secundario) !important;
+	background-color: var(--color-primario) !important;
 }
 
 /*--------------  Configuramos el color de los Botones primarios  --------------*/

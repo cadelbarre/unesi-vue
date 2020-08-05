@@ -1,5 +1,5 @@
 <template>
-	<section>
+	<section v-enteractive>
 		<div class="container-fluid py-5 bg-hero">
 			<div class="jumbotron-fluid">
 				<div class="container">
