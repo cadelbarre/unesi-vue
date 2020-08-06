@@ -1,5 +1,5 @@
 <template>
-	<section v-enteractive>
+	<section>
 		
 		<!-- ------------------------------ CAROUSEL ------------------------------- -->
 		<agile :autoplay-speed="5000" :speed="1500" autoplay="autoplay" :navButtons="true">
@@ -17,10 +17,10 @@
 		<div class="container-fluid py-6">
 			<div class="container">
 				<div class="row">
-					<div class="col-md px-5 d-flex justify-content-end">
+					<div class="col-md px-5 d-flex justify-content-end delay" v-scrollanimation>
 						<img class="img-fluid" src="../assets/img/team/doctor1.jpg" alt="">
 					</div>
-					<div class="col-md px-5 m-auto ">
+					<div class="col-md px-5 m-auto" v-scrollanimation>
 						<h1 class="blue-color mb-4">
 							Bienvenidos a UNESI Ltda
 						</h1>
@@ -85,7 +85,7 @@
 		<div class="container-fluid">
 			<div class="container py-6">
 				<div class="row">
-					<div class="col-sm-6">
+					<div class="col-sm-6 px-5" v-scrollanimation>
 						<h1 class="blue-color mb-4">Nuestra Labor en Cifras</h1>
 						<p class="text-justify">Puede seguir leyendo sobre nuestras ventajas, pero usted puede leer los siguientes datos reales para asegurarte de todas las ventajas de nuestro trabajo clinico.</p>
 						<p class="text-justify">Puede seguir leyendo sobre nuestras ventajas, pero usted puede leer los siguientes datos reales para asegurarte de todas las ventajas de nuestro trabajo clinico.</p>
@@ -115,7 +115,7 @@
 							
 						</div>
 					</div>
-					<div class="col-sm-6">
+					<div class="col-sm-6 px-5 delay" v-scrollanimation>
 						<div class="test"></div>
 					</div>
 				</div>
@@ -132,7 +132,7 @@
 							<h1 class="text-white mb-3">Dr. Jairo Martin Fernandez Henríquez.</h1>
 							<p>Jefe Sección de Cirugía Mínimamente Invasiva Ginecológica Clínica CarlosArdila Lulle</p>
 							<p>"Una de mis mayores realizaciones es ayudar a las parejas a cumplir conel sueño de ser papas y para ello dedicamos todo el tiempo, nuestrosconocimientos y nuestro corazón para que esto sea una realidad."</p>
-							<button class="btn btn-outline-light" type="button"> Saber mas </button>
+							<button class="btn btn-outline-light" type="button"> <router-link to="/perfil"> Saber mas </router-link></button>
 						</div> 
 					</div>
 				</div>

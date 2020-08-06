@@ -1,7 +1,10 @@
 <template>
   <div id="app">
     <Header/>
-    <transition name="router-animated" leave-active-class="animated fadeOut">
+    <transition 
+        name="router-animated" mode="out-in"
+        leave-active-class="animated fadeOut" 
+        enter-active-class="animated fadeIn">
       <router-view/>
     </transition>
     <Footer/>

@@ -1,11 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
-/*--------------  Importamos las paginas  --------------*/
-import nosotros from '../views/nosotros.vue'
-import perfil from '../views/perfil.vue'
-import Home from '../views/Home.vue'
-import Contacto from '../views/Contacto.vue'
 
 Vue.use(VueRouter)
 
@@ -13,31 +8,30 @@ Vue.use(VueRouter)
   {
     path: '/Home',
     name: 'Home',
-    component: Home
+    component: () => import(/* webpackChunkName: "Home" */ '../views/Home.vue')
   },
   {
     path: '/',
     name: 'Home',
-    component: Home
+    component: () => import(/* webpackChunkName: "Home" */ '../views/Home.vue')
   },
   {
     path: '/nosotros',
     name: 'nosotros',
-    component: nosotros
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    // component: () => import(/* webpackChunkName: "about" */ '../views/nosotros.vue')
+    component: () => import(/* webpackChunkName: "Nosotros" */ '../views/nosotros.vue')
   },
   {
     path: '/perfil',
     name: 'perfil',
-    component: perfil
+    component: () => import(/* webpackChunkName: "Perfil" */ '../views/perfil.vue')
   },
    {
     path: '/Contacto',
     name: 'Contacto',
-    component: Contacto
+    component: () => import(/* webpackChunkName: "Contacto" */ '../views/Contacto.vue')
   }
 
 ]
@@ -45,6 +39,14 @@ Vue.use(VueRouter)
 const router = new VueRouter({
   mode: 'history',
   base: process.env.BASE_URL,
+  scrollBehavior (to, from, savedPosition) {
+    if (savedPosition) {
+      return savedPosition
+    } else {
+      return { x: 0, y: 0}
+    }
+  }
+,
   routes
 })
 

@@ -2,12 +2,11 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 
+/*--------------  Directivas para animacion  --------------*/
 import ScrollAnimation from './directives/scrollanimation.js'
 Vue.directive('scrollanimation', ScrollAnimation)
 
-import EnterActive from './directives/enter-active-class.js'
-Vue.directive('enteractive', EnterActive)
-
+/*--------------  Slide Carousel  --------------*/
 import VueAgile from 'vue-agile'
 Vue.use(VueAgile)
 

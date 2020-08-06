@@ -1,5 +1,5 @@
 <template>
-	<section v-enteractive>
+	<section>
 		<div class="container-fluid py-5 bg-hero">
 			<div class="jumbotron-fluid">
 				<div class="container">
@@ -74,7 +74,6 @@ export default {
   name: 'Contacto'
 }
 </script>
-
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 </style>
